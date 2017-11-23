@@ -1,0 +1,42 @@
+:root {
+      --base: red;
+      --spacing: 10px;
+      --blur: 10px;
+    }
+
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
+
+    .hl {
+      color: var(--base);
+      font-family: 'Fredoka One', cursive;
+    }
+
+    /*
+      misc styles, nothing to do with CSS variables
+    */
+
+    body {
+      text-align: center;
+      background: url(background.jpg);
+      background-size: cover;
+      color: white;
+      font-family: 'Fredoka One', cursive;
+      font-weight: 100;
+      font-size: 50px;
+    }
+
+    .controls {
+      margin-bottom: 50px;
+      font-family: 'Crafty Girls', cursive;
+    }
+
+    input {
+      width:100px;
+    }
+    #o{
+      color:#FF0000;
+    }
